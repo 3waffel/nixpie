@@ -32,7 +32,7 @@ jobs:
 
       - name: Build Nix
         run: |
-          nix build --max-jobs 4 --print-build-logs --show-trace
+          nix build --max-jobs 4 --print-build-logs --show-trace --system aarch64-linux
           
       - run: echo "UPLOAD_PATH=$(readlink -f result)" >> $GITHUB_ENV
       - uses: actions/upload-artifact@v3

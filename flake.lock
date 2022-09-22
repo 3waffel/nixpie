@@ -368,15 +368,16 @@
         "vscode-server": "vscode-server"
       },
       "locked": {
-        "lastModified": 1661560778,
-        "narHash": "sha256-l94YCjy+RK8jemeTRo1LnG1oGsKPqN8IfUYUMUcbnMs=",
+        "lastModified": 1662996746,
+        "narHash": "sha256-2qcd/UANYgQm/OqRUdQJclgcYGvL9gnvYfAJXzz1+9I=",
         "owner": "3waffel",
         "repo": "nixconfig",
-        "rev": "e9b583249cac131a2f9df02f9f1adce8a0915135",
+        "rev": "099bf21d52659b8ff87c0f6465b514e20f9b390f",
         "type": "github"
       },
       "original": {
         "owner": "3waffel",
+        "ref": "raspi",
         "repo": "nixconfig",
         "type": "github"
       }
@@ -554,6 +555,22 @@
         "type": "github"
       }
     },
+    "nixpkgs-unstable": {
+      "locked": {
+        "lastModified": 1663761423,
+        "narHash": "sha256-bDLXl2BVq7eIQz/8CduZI1SLyhG9u/CrckHd6f7bwPE=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "d6490a0bd9dfb298fcd8382d3363b86870dc7340",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
     "nixpkgs-wayland": {
       "inputs": {
         "cachix": "cachix",
@@ -694,7 +711,8 @@
         "nixconfig": "nixconfig",
         "nixos-generators": "nixos-generators",
         "nixos-hardware": "nixos-hardware_2",
-        "nixpkgs": "nixpkgs_7"
+        "nixpkgs": "nixpkgs_7",
+        "nixpkgs-unstable": "nixpkgs-unstable"
       }
     },
     "simple-mailserver": {
